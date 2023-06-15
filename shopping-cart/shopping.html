@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-commerce Site</title>
+    <script src="shopping.js"></script>
+</head>
+<body>
+    <h1>Welcome to our E-commerce Site</h1>
+    <h2>Products</h2>
+    <div id="products">
+        <div class="product">
+            <h3>Product 1</h3>
+            <button onclick="addToCart(1)">Add to Cart</button>
+            <button onclick="addToWishlist(1)">Add to Wishlist</button>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <button onclick="addToCart(2)">Add to Cart</button>
+            <button onclick="addToWishlist(2)">Add to Wishlist</button>
+        </div>
+        <div class="product">
+          <h3>Product 3</h3>
+          <button onclick="addToCart(3)">Add to Cart</button>
+          <button onclick="addToWishlist(3)">Add to Wishlist</button>
+      </div>
+      <div class="product">
+        <h3>Product 4</h3>
+        <button onclick="addToCart(4)">Add to Cart</button>
+        <button onclick="addToWishlist(4)">Add to Wishlist</button>
+    </div>
+    <div class="product">
+      <h3>Product 5</h3>
+      <button onclick="addToCart(5)">Add to Cart</button>
+      <button onclick="addToWishlist(5)">Add to Wishlist</button>
+  </div>
+        <!-- Add more products here -->
+    </div>
+
+    <h2>Cart</h2>
+    <div id="cart">
+        <ul id="cart-items"></ul>
+    </div>
+
+    <h2>Wishlist</h2>
+    <div id="wishlist">
+        <ul id="wishlist-items"></ul>
+    </div>
+</body>
+</html>
